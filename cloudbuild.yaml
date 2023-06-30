@@ -1,5 +1,5 @@
 steps:
-  - name: gradle:8.1-1
+  - name: gradle:8.1.1
     entrypoint: gradle
     args: ['build', '--stacktrace', '-p']
 options:
