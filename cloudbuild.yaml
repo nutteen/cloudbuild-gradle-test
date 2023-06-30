@@ -1,6 +1,6 @@
 steps:
   - name: gradle:8.1.1
     entrypoint: gradle
-    args: ['build', '--stacktrace', '-p']
+    args: ['build', '--stacktrace']
 options:
   logging: CLOUD_LOGGING_ONLY
